@@ -1,8 +1,10 @@
-# Auto detect text files and perform LF normalization
+# For the installer to work we can't do text crlf stuff...
 *.txt binary
 *.vsto binary
 *.deploy binary
 *.manifest binary
 *.application binary
 *.html binary
+* binary
+
 
