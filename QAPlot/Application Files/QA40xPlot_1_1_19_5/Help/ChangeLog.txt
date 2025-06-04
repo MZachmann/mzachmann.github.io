@@ -1,0 +1,98 @@
+﻿The QA40xPlot Changelog
+--------------------------------------------
+This changelog shows the changes made for each version
+--------------------------------------------
+v 1.1.19
+- start using the 4 term version # from the installer
+- Repair the constant overlaying for both THDvsAmp and THDvsFreq
+- add a bunch of tooltips including to the data summary box
+- improve binning of sweep frequencies
+v 1.1.18
+- fix left/right swap of noise floor
+- repair up-down control positioning on-screen
+- save current window size and position in configuration
+- enhance color picker transparency display
+- enhance plot color choices
+- add multitone (30 logarithmic spaced sines) waveform 
+   warning->much higher total power than a sine wave
+- improve auto attenuation math
+- fix enbw missing in noise floor and thd+n math
+v 1.1.17
+- add unit conversion to voltage inputs (not serialized yet)
+v 1.1.16
+- fix the impedance cursor phase math
+- swap to not using deploy suffix but set all git to binary
+v 1.1.15
+- enable saving loaded tests
+- add plot colors to the Get settings
+- enable color selection via a color picker dialog
+- refactor out otherset class
+- add this file (Changelog.txt) to the distribution and link to it
+- create a ClickOnce installation and use github.io for it
+v 1.1.14
+- repair right channel math error
+- swap up/down buttons on updown control
+- repair Spectrum signal expander binding
+v 1.1.13
+- add inductor/capacitor cursor for impedance test
+- add ability to select a theme
+- swapped out updown for a usercontrol
+- alphabetize settings
+- add expanders to the UI portion of the screen
+- move miniplots to a separate window
+- swap input channels if QA402
+v 1.1.12
+- increase max # of averages to 20
+- add 88,16K fft sizes
+- swap amp load resistance to correct ZReference on impedance test
+- do averaging in the frequency domain
+- improve translucency in plot lines
+- add graph background color selection
+v 1.1.11
+- fix load of a saved tab half-erasing the get list
+- swap to more standard colors for the get list
+v 1.1.10
+- repair IMD signal to noise math when a frequency is near 20KHz
+- repair tab save never highlights in THD vs amp and THD vs frequency
+- repair unit name in THD vs amp Y axis
+- start capturing on perceived data start rather than immediately
+- remove double-scan for gain tests and instead correctly
+  allow time for circuit to settle after relays switch
+  based on empirical test of relay vs signal
+v 1.1.9
+- refine the esthetics, like boundary of graph
+- support settable background color
+- refactor most of the gui xaml by using subcontrols
+v 1.1.8
+- totally refactor the usb/rest code to use an interface & factory
+-- yank out REST use of 'internal' oscillators and queries
+- remove redundant color code to slim binding way down
+- fix the autorange display to show both values
+v 1.1.7
+- support multiple 'get' files
+-- upgrade all tests to enable multiples
+-- allow removing entries
+-- display r/l for each entry
+-- add a list gui
+v 1.1.6
+- lots of cleanup to the usb/rest connections to reduce overhead
+v 1.1.5
+- repair popup windows initial visual state
+- swap to manual powerline setting
+v 1.1.4
+- multiple load/save improvements
+-- inclusion in window fit calculation
+-- improved color choices/esthetics
+-- support for data summaries
+v1.1.3
+- finish tab load/save implementation as "Other"
+- add tab info display to each tab window
+- add a REST support layer to allow either interface
+v 1.1.1, 1.1.2
+- start tab load/save implementation
+- improve settling issues when noise measurement
+- set the device to Attenuation when a test finishes so the device stays attenuated
+- improvements to the thd/snr/noise algorithms
+v 1.1.0
+- First version with direct to USB support
+
