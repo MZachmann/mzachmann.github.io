@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="QA40xPlot.exe" version="1.1.41.2" publicKeyToken="8b5b4f4f585865bd" language="en-US" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="QA40xPlot.exe" version="1.1.42.1" publicKeyToken="8b5b4f4f585865bd" language="en-US" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Images\favicon.ico" asmv2:publisher="Audua LLC" co.v1:suiteName="AudioSuite" asmv2:product="QA40xPlot" asmv2:supportUrl="https://github.com/MZachmann/QA40xPlot" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -109,13 +109,13 @@
       <dsig:DigestValue>suXTjLU227yw/pjx42d+cQ+yXNJ0dgm5lwvcQCcPVj8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Help\ChangeLog.txt" size="7888">
+  <file name="Help\ChangeLog.txt" size="8197">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>V17kU2K3W2/dBp0vwhMzKpPt3/zIRVtUSu4bW6P1qbg=</dsig:DigestValue>
+      <dsig:DigestValue>ZU5zrLX7R8Hxudz6MNx7vSojoZhCTl8gJk3mNDxZi5k=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Help\DACSupport.txt" size="622">
@@ -352,13 +352,13 @@
       <dsig:DigestValue>YCutk6cQ6cKTfvj/Id9GClYBELeIAG48eKsAR4u0aF0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QA40xPlot.dll" size="1323968">
+  <file name="QA40xPlot.dll" size="1327552">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4Zs4JLKlBRBGWJnBG/2U7j3UNeMgr2biCcglpbr14LM=</dsig:DigestValue>
+      <dsig:DigestValue>GlyIuesy+dV/j5io/jNVYk+RaFPUB9za+Rb6IiK0/Fw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="QA40xPlot.exe" size="338368">
@@ -367,7 +367,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>AZJsy9ImUYk+9vmTgJr13qA68Jc1uczbKFWUX4/YPHA=</dsig:DigestValue>
+      <dsig:DigestValue>+kwJS9iVryYGD1DbfdFL/1MZqfYufqJ0nXfWJTW6p0M=</dsig:DigestValue>
     </hash>
   </file>
   <file name="QA40xPlot.runtimeconfig.json" size="583">
@@ -442,4 +442,4 @@
       <dsig:DigestValue>vPOhTocSqQg3/FwNjIokaWryvX906XZ1l+yB7e37I9s=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=MARKDESKTOP\mark" issuerKeyHash="c919aca8faf4bf261612cf810264b5b49bcaabe2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8M7dnFy5ns5Vo/E779R1e3xiuDKoq9MpgdYgj0/jyMs=</DigestValue></Reference></SignedInfo><SignatureValue>R58enZGnqCoPcNFm7cWkwNvOjvS1Sf4jxw5KT11qweSkiyS5CT0VO+UaPCmGCFUPuGLj98NpSazoaoc5o/AmioLoaSh8sZ9mC97JwlRaSTV1npzQDIea18lOyOfNSn2lQkkt5VPPt7GhNz5+bVV/rE4x+cqZ4bRId83F5qXxhmk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5QLdedCLLfGIzmRchncGc0jMLolIdHiPF7rPldRDFvalDCNu0yk6l9i4LARQ+5vVN6ON5P8sCbJAGuqbYitE2wIqVQUq4lNND+luU8/mX+HeBsQFOro6YOjpFFZRmtyrlGEoNOtfXrm/zETqCFpN/3zxF3rqLgqqCZtTvTHQK60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cbc8e34f8f20d68129d3aba832b8627c7b75d4ef3bf1a355ce9eb95c9cddcef0" Description="" Url=""><as:assemblyIdentity name="QA40xPlot.exe" version="1.1.41.2" publicKeyToken="8b5b4f4f585865bd" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MARKDESKTOP\mark</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GER9MDfljRRb+e2d3JqZeiLHb70CdyWyoNr9hIx7bkY=</DigestValue></Reference></SignedInfo><SignatureValue>SH4EY4YuB8rAdsPdbKN7GO4m+wzapCgNWU2y1IWLbuPXsYy8GKgyKdIpB/Pv3KOKUusROHaaiilUNDET22+n7Yernb/mU1OikKOdsyaJvwFZhL8FryY2pv07t/zvlBToNv57/Eej2GCNb+M4iEeC21PbeUN30ITyAbv4cG2OBaI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5QLdedCLLfGIzmRchncGc0jMLolIdHiPF7rPldRDFvalDCNu0yk6l9i4LARQ+5vVN6ON5P8sCbJAGuqbYitE2wIqVQUq4lNND+luU8/mX+HeBsQFOro6YOjpFFZRmtyrlGEoNOtfXrm/zETqCFpN/3zxF3rqLgqqCZtTvTHQK60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQadI8OeCMHp9MlLbVAdLYuDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATQBBAFIASwBEAEUAUwBLAFQATwBQAFwAbQBhAHIAazAeFw0yNTAzMTgyMTEyNDRaFw0yNjAzMTkwMzEyNDRaMCsxKTAnBgNVBAMeIABNAEEAUgBLAEQARQBTAEsAVABPAFAAXABtAGEAcgBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlAt150Ist8YjOZFyGdwZzSMwuiUh0eI8Xus+V1EMW9qUMI27TKTqX2LgsBFD7m9U3o43k/ywJskAa6ptiK0TbAipVBSriU00P6W5Tz+Zf4d4GxAU6ujpg6OkUVlGa3KuUYSg0619eub/MROoIWk3/fPEXeuouCqoJm1O9MdArrQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAL62KpJxy5u+15uT7LQERhmCna9t4w9/D8QmrHY8yt3Gb2yaY7ZCJsICcjwBEr5HbmKEb6SJD3roQcuPAejsqdk7b3G/Ab+2qxi31vWYDSaFIBoUK9NHChLgX+/PDM3cGpiu8TMO/rX1gxg52Iv4ok4PuAsv69ruFyzoXisEXYAn</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=MARKDESKTOP\mark" issuerKeyHash="c919aca8faf4bf261612cf810264b5b49bcaabe2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W2tNIyOcBOtWj1oni2jD0BbK+GW0pp0Lfu3uFS3e1cM=</DigestValue></Reference></SignedInfo><SignatureValue>HabK2jD/MV9U4Evc/ZqNllubyCPwSE/nFc1IpiHU6bjPrMvs7xri470dZP5kmRf6aNsta5imbXDdVp6wOUMTf+9bYj1Xjud03S/t+SH+2FA4Ul9NukmkW+Xbjb0v9kAxfjEtLvKfT8do06P33ZRnKInvGyb+5Uf08F4xYrcRFpg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5QLdedCLLfGIzmRchncGc0jMLolIdHiPF7rPldRDFvalDCNu0yk6l9i4LARQ+5vVN6ON5P8sCbJAGuqbYitE2wIqVQUq4lNND+luU8/mX+HeBsQFOro6YOjpFFZRmtyrlGEoNOtfXrm/zETqCFpN/3zxF3rqLgqqCZtTvTHQK60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c3d5de2d15eeed7e0b9da6b465f8ca16d0c3688b275a8f56eb049c23234d6b5b" Description="" Url=""><as:assemblyIdentity name="QA40xPlot.exe" version="1.1.42.1" publicKeyToken="8b5b4f4f585865bd" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MARKDESKTOP\mark</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+NAphWKBuln1X01CUE/MuQUoKWmpweE9kp+PpY9wAuk=</DigestValue></Reference></SignedInfo><SignatureValue>TSjUovCXwZ3Zkdtu4sy84N3CFUwT/yRKvJiIjWCsFBml5Ar8vcUroqp57PPT+2RC1KFJ3V/dfWLe68aBRfgwFDY6/L5JWEdxuSJy/i0YkBI0KdEfeUd/VGWItlFTGieypE42CogCXplEdFXstKKNtZrMo7ilJO9nKjxSaR+Lr+k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5QLdedCLLfGIzmRchncGc0jMLolIdHiPF7rPldRDFvalDCNu0yk6l9i4LARQ+5vVN6ON5P8sCbJAGuqbYitE2wIqVQUq4lNND+luU8/mX+HeBsQFOro6YOjpFFZRmtyrlGEoNOtfXrm/zETqCFpN/3zxF3rqLgqqCZtTvTHQK60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQadI8OeCMHp9MlLbVAdLYuDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATQBBAFIASwBEAEUAUwBLAFQATwBQAFwAbQBhAHIAazAeFw0yNTAzMTgyMTEyNDRaFw0yNjAzMTkwMzEyNDRaMCsxKTAnBgNVBAMeIABNAEEAUgBLAEQARQBTAEsAVABPAFAAXABtAGEAcgBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlAt150Ist8YjOZFyGdwZzSMwuiUh0eI8Xus+V1EMW9qUMI27TKTqX2LgsBFD7m9U3o43k/ywJskAa6ptiK0TbAipVBSriU00P6W5Tz+Zf4d4GxAU6ujpg6OkUVlGa3KuUYSg0619eub/MROoIWk3/fPEXeuouCqoJm1O9MdArrQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAL62KpJxy5u+15uT7LQERhmCna9t4w9/D8QmrHY8yt3Gb2yaY7ZCJsICcjwBEr5HbmKEb6SJD3roQcuPAejsqdk7b3G/Ab+2qxi31vWYDSaFIBoUK9NHChLgX+/PDM3cGpiu8TMO/rX1gxg52Iv4ok4PuAsv69ruFyzoXisEXYAn</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
