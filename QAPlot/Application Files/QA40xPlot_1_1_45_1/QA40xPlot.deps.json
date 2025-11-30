@@ -52,8 +52,7 @@
       },
       "HarfBuzzSharp/7.3.0.3": {
         "dependencies": {
-          "HarfBuzzSharp.NativeAssets.Win32": "7.3.0.3",
-          "HarfBuzzSharp.NativeAssets.macOS": "7.3.0.3"
+          "HarfBuzzSharp.NativeAssets.Win32": "7.3.0.3"
         },
         "runtime": {
           "lib/net6.0/HarfBuzzSharp.dll": {
@@ -62,12 +61,6 @@
           }
         }
       },
-      "HarfBuzzSharp.NativeAssets.Linux/7.3.0.3": {
-        "dependencies": {
-          "HarfBuzzSharp": "7.3.0.3"
-        }
-      },
-      "HarfBuzzSharp.NativeAssets.macOS/7.3.0.3": {},
       "HarfBuzzSharp.NativeAssets.Win32/7.3.0.3": {
         "native": {
           "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
@@ -76,26 +69,11 @@
         }
       },
       "LibUsbDotNet/2.2.75": {
-        "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0"
-        },
         "runtime": {
           "lib/net8.0/LibUsbDotNet.LibUsbDotNet.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.75.11634"
           }
-        }
-      },
-      "Microsoft.NETCore.Platforms/5.0.0": {},
-      "Microsoft.Win32.Registry/5.0.0": {
-        "dependencies": {
-          "System.Security.AccessControl": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
-        }
-      },
-      "Microsoft.Win32.SystemEvents/4.7.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
         }
       },
       "NAudio/2.2.1": {
@@ -116,7 +94,6 @@
       },
       "NAudio.Asio/2.2.1": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
           "NAudio.Core": "2.2.1"
         },
         "runtime": {
@@ -169,7 +146,6 @@
       },
       "NAudio.WinMM/2.2.1": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
           "NAudio.Core": "2.2.1"
         },
         "runtime": {
@@ -314,10 +290,8 @@
       },
       "ScottPlot/5.0.55": {
         "dependencies": {
-          "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
           "SkiaSharp": "2.88.9",
-          "SkiaSharp.HarfBuzz": "2.88.9",
-          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.9"
+          "SkiaSharp.HarfBuzz": "2.88.9"
         },
         "runtime": {
           "lib/net8.0/ScottPlot.dll": {
@@ -342,8 +316,7 @@
       },
       "SkiaSharp/2.88.9": {
         "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "2.88.9",
-          "SkiaSharp.NativeAssets.macOS": "2.88.9"
+          "SkiaSharp.NativeAssets.Win32": "2.88.9"
         },
         "runtime": {
           "lib/net6.0/SkiaSharp.dll": {
@@ -364,12 +337,6 @@
           }
         }
       },
-      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.9": {
-        "dependencies": {
-          "SkiaSharp": "2.88.9"
-        }
-      },
-      "SkiaSharp.NativeAssets.macOS/2.88.9": {},
       "SkiaSharp.NativeAssets.Win32/2.88.9": {
         "native": {
           "runtimes/win-x64/native/libSkiaSharp.dll": {
@@ -379,8 +346,7 @@
       },
       "SkiaSharp.Views.Desktop.Common/2.88.9": {
         "dependencies": {
-          "SkiaSharp": "2.88.9",
-          "System.Drawing.Common": "4.7.3"
+          "SkiaSharp": "2.88.9"
         },
         "runtime": {
           "lib/netcoreapp3.1/SkiaSharp.Views.Desktop.Common.dll": {
@@ -400,20 +366,7 @@
             "fileVersion": "2.88.9.0"
           }
         }
-      },
-      "System.Drawing.Common/4.7.3": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
-          "Microsoft.Win32.SystemEvents": "4.7.0"
-        }
-      },
-      "System.Security.AccessControl/5.0.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
-        }
-      },
-      "System.Security.Principal.Windows/5.0.0": {}
+      }
     }
   },
   "libraries": {
@@ -448,20 +401,6 @@
       "path": "harfbuzzsharp/7.3.0.3",
       "hashPath": "harfbuzzsharp.7.3.0.3.nupkg.sha512"
     },
-    "HarfBuzzSharp.NativeAssets.Linux/7.3.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hkcHeTfOyIeJuPtO/QfoqkDvV/MXebZYaA/Bn/S+nXsjH3Wt9oQ6okH2kklYO+1UUdBSJFd67bi9IrpQXI2mPw==",
-      "path": "harfbuzzsharp.nativeassets.linux/7.3.0.3",
-      "hashPath": "harfbuzzsharp.nativeassets.linux.7.3.0.3.nupkg.sha512"
-    },
-    "HarfBuzzSharp.NativeAssets.macOS/7.3.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UAwIYnkbBTzBJv1Id8FijY/i8QiIepRemSXufU8fyzwWhYJdx4+ajG8yQUie5HW/uusbVLFSr26muSlJOFDgSw==",
-      "path": "harfbuzzsharp.nativeassets.macos/7.3.0.3",
-      "hashPath": "harfbuzzsharp.nativeassets.macos.7.3.0.3.nupkg.sha512"
-    },
     "HarfBuzzSharp.NativeAssets.Win32/7.3.0.3": {
       "type": "package",
       "serviceable": true,
@@ -475,27 +414,6 @@
       "sha512": "sha512-PRp2lYflUN/IrYJW8ZM6G/0hBKnX4ySOq9L+4mavqWIGH6KcEMPXKAxln6oVQ+dQK5Q2yNdYLDJhk7NfuP9+ww==",
       "path": "libusbdotnet/2.2.75",
       "hashPath": "libusbdotnet.2.2.75.nupkg.sha512"
-    },
-    "Microsoft.NETCore.Platforms/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
-      "path": "microsoft.netcore.platforms/5.0.0",
-      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
-    },
-    "Microsoft.Win32.Registry/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
-      "path": "microsoft.win32.registry/5.0.0",
-      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
-    },
-    "Microsoft.Win32.SystemEvents/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
-      "path": "microsoft.win32.systemevents/4.7.0",
-      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
     "NAudio/2.2.1": {
       "type": "package",
@@ -665,20 +583,6 @@
       "path": "skiasharp.harfbuzz/2.88.9",
       "hashPath": "skiasharp.harfbuzz.2.88.9.nupkg.sha512"
     },
-    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ZA9syMvIuoqxPhyFTgde/bNV6VMdeYT9gRdNQT5O+ZjPK+a/nVkKRrqBbn7EVA7XQiW+xIycyT4gW/sea9eh+w==",
-      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.9",
-      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.88.9.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.macOS/2.88.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Nv5spmKc4505Ep7oUoJ5vp3KweFpeNqxpyGDWyeEPTX2uR6S6syXIm3gj75dM0YJz7NPvcix48mR5laqs8dPuA==",
-      "path": "skiasharp.nativeassets.macos/2.88.9",
-      "hashPath": "skiasharp.nativeassets.macos.2.88.9.nupkg.sha512"
-    },
     "SkiaSharp.NativeAssets.Win32/2.88.9": {
       "type": "package",
       "serviceable": true,
@@ -699,27 +603,6 @@
       "sha512": "sha512-80fEK0dYEJpi36Ko9WylN2rCf4w/hzzHEe+nyEL79dTHvUVfuXLZONmIwrDJ+pL5JSi8YmktQVxbYZexS+NZCw==",
       "path": "skiasharp.views.wpf/2.88.9",
       "hashPath": "skiasharp.views.wpf.2.88.9.nupkg.sha512"
-    },
-    "System.Drawing.Common/4.7.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-B3+wwhAeoUQ6KeshWSq3IRLQiMoqPEzSHzyVyxTI/EbYuqIp90lXrRISlip2AF+5tj74ycIVPpnRY4M424HahA==",
-      "path": "system.drawing.common/4.7.3",
-      "hashPath": "system.drawing.common.4.7.3.nupkg.sha512"
-    },
-    "System.Security.AccessControl/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
-      "path": "system.security.accesscontrol/5.0.0",
-      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
-    },
-    "System.Security.Principal.Windows/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
-      "path": "system.security.principal.windows/5.0.0",
-      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
     }
   }
 }
